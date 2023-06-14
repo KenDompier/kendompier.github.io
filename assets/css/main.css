@@ -1663,20 +1663,20 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-
 		
 /* Video */
 .bgvideo {
-	position:fixed;
+	position: fixed;
 	z-index: -1;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
 
 
 .content h1:hover{
 	-webkit-text-stroke: 2px #fff;
 	color: transparent;
 }
-
