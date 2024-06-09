@@ -1680,3 +1680,54 @@ input, select, textarea {
 	-webkit-text-stroke: 2px #fff;
 	color: transparent;
 }
+
+
+
+
+.me-container {
+    text-align: center;
+}
+
+.me-container .me-small {
+    display: inline-block;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%; /* Make this image circular */
+}
+
+.me-small {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.rounded {
+    border-radius: 15px;
+}
+
+.paragraphs {
+    clear: left;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container .small-image {
+    width: 50%;
+    height: auto;
+    max-width: 90%;
+    border-radius: 15px;
+}
+
+.small-image {
+    width: 70%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
+}
